@@ -169,6 +169,15 @@ pre {
     }
 }
 
+/**
+ * Photo Wrapper
+ */
+.photo-wrapper {
+    text-align: center;
+    margin: auto;
+    @extend %clearfix;
+}
+
 
 
 /**
