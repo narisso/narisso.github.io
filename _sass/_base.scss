@@ -178,6 +178,13 @@ pre {
     @extend %clearfix;
 }
 
+.panoramic-content {
+  margin-bottom: 0px;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  top: 62px;
+}
 
 
 /**
