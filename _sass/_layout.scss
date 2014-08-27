@@ -165,6 +165,14 @@
     padding: $spacing-unit 0;
 }
 
+/**
+ * Photo content
+ */
+.photo-content {
+    padding: 0px;
+}
+
+
 .page-heading {
     font-size: 20px;
 }
@@ -233,4 +241,12 @@
             font-size: 18px;
         }
     }
+}
+
+.panoramic-content {
+  margin-bottom: 0px;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  top: 62px;
 }
