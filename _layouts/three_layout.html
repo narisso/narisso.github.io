@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="photo-content">
+      <div class="photo-wrapper">
+        {{ content }}
+      </div>
+    </div>
+
+    <script src="{{ "/scripts/three.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/scripts/threex.domevents.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/scripts/kinetic-v5.1.0.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/scripts/thebestscript.js" | prepend: site.baseurl }}"></script>
+
+  </body>
+
+</html>
